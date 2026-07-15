@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Insurance Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  <div id="dashboard" style="display:none;">
+    <header>
+      <h1>Claims Dashboard</h1>
+      <button id="close">Close</button>
+    </header>
+    <section class="grid">
+      <div class="card">
+        <h2>Active Claims</h2>
+        <ul id="activeClaims"></ul>
+      </div>
+      <div class="card">
+        <h2>Previous Claims</h2>
+        <ul id="previousClaims"></ul>
+      </div>
+      <div class="card">
+        <h2>Driver Risk</h2>
+        <div id="riskScore"></div>
+      </div>
+      <div class="card">
+        <h2>Fraud Score</h2>
+        <div id="fraudScore"></div>
+      </div>
+      <div class="card">
+        <h2>Repair Orders</h2>
+        <ul id="repairOrders"></ul>
+      </div>
+      <div class="card">
+        <h2>Investigation Progress</h2>
+        <ul id="progress"></ul>
+      </div>
+      <div class="card wide">
+        <h2>Timeline</h2>
+        <ul id="timeline"></ul>
+      </div>
+      <div class="card wide">
+        <h2>Uploaded Evidence</h2>
+        <ul id="evidence"></ul>
+      </div>
+    </section>
+  </div>
+  <script src="dashboard.js"></script>
+</body>
+</html>
