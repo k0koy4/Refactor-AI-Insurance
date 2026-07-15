@@ -1,6 +1,6 @@
 # AI Insurance Adjuster
 
-A modular FiveM insurance investigation resource for handling crash claims from initial damage detection through investigation, verdict generation, claim letters, repair-order creation, and optional player-facing portal data. The resource is designed to be dropped into a larger RP codebase with lightweight integration points rather than as a tightly coupled standalone experience.
+A modular FiveM insurance investigation resource for handling crash claims from initial damage detection through investigation, verdict generation, claim letters, repair-order creation, and optional player-facing portal data. The resource is designed to be dropped into a large RP codebase with lightweight integration points rather than as a tightly coupled standalone experience.
 
 ## Features
 
